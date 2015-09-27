@@ -72,6 +72,7 @@ Now push a copy go the codebase to each of your new Github wikis -- this will al
 - `$ git push --mirror https://github.com/username/wiki1`
 - `$ git push --mirror https://github.com/username/wiki2`
 - `$ git push --mirror https://github.com/username/wiki3`
+
 - The build process happens each time you push a change to your repository (and not before.) An ongoing build looks like this:
 ![Building](/../screenshots/Travis-CI_Building.png?raw=true)
 - Once the build has finished - you may visit your new wikis at either `<your-git-username>.github.io/wiki1` or `<your-git-username>.github.io/wiki2` or  `<your-git-username>.github.io/wiki3`
@@ -79,21 +80,6 @@ Now push a copy go the codebase to each of your new Github wikis -- this will al
 You are now set to go: 
 
 - You may now edit any file in your Github repositories and your new wiki will be re-built as soon as these changes are pushed
-- This may be done directly on Github, or you may prefer using your favourite editor before pushing the changes to Github with git, or you may edit your pages using a web client such as [Prose](#Prose)
+- This may be done directly on Github, or you may prefer using your favourite editor before pushing the changes to Github with git, or you may edit your pages using a web client such as [Prose](http://prose.io/)
 - Remember - the first build of each wiki will only occur after you have committed an edit to the respective Github repository and will, therefore, not be available on Github pages before that 
 
-## Prose
-- Visit [Prose](http://prose.io/); on first use you will need to authorise Prose to access your Github account
-- Once authorised, you may begin using the application to edit your tiddlers:
-
-1. Select the repository of your wiki
-2. Navigate to `wiki`>`tiddlers` directory
-3. Select the tiddler you want to edit or create a new file. When creating a new file make sure to give it a `.tid` extension.
-4. Once you  have completed editing your tiddler, click the save icon. You can provide a commit message if you want.
-5. Click on `IMPORT FROM` 
-6. On the drop down select `Github`
-7. Authorise the application if needed
-8. Select the repository you want to edit, and select the master branch
-9. Navigate to `wiki`>`tiddlers` directory
-10. Select the tiddler you want to edit
-11. Once you  have your "tiddler ready" click `SAVE TO` and select Github
